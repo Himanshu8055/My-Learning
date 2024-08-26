@@ -1,0 +1,102 @@
+HTML Questions:-
+
+1.	What is HTML?
+2.	Explain the structure of an HTML document.
+3.	What is the purpose of the <!DOCTYPE> declaration in HTML?
+4.	What are semantic HTML elements? Give examples.
+5.	Explain the difference between block-level and inline elements.
+6.	What is the difference between <div> and <span> tags?
+7.	How do you create a hyperlink in HTML?
+8.	What are the different types of lists in HTML?
+9.	How do you create an unordered list in HTML?
+10.	How do you create an ordered list in HTML?
+11.	What is the purpose of the <head> tag in HTML?
+12.	What is the purpose of the <title> tag in HTML?
+13.	How do you include an image in an HTML page?
+14.	What is the purpose of the alt attribute in an <img> tag?
+15.	How do you create a table in HTML?
+16.	Explain the purpose of the <thead>, <tbody>, and <tfoot> tags.
+17.	What is the difference between <th> and <td> tags?
+18.	How do you merge cells in a table using HTML?
+19.	What are HTML attributes? Give examples.
+20.	Explain the difference between the id and class attributes.
+21.	How do you create a form in HTML?
+22.	What are the different types of input elements in HTML forms?
+23.	What is the purpose of the <label> tag in HTML forms?
+24.	Explain the difference between GET and POST methods in HTML forms.
+25.	What is the purpose of the action attribute in an HTML form?
+26.	How do you create a checkbox in HTML?
+27.	How do you create a radio button in HTML?
+28.	What is the purpose of the name attribute in HTML form elements?
+29.	How do you create a dropdown list in HTML?
+30.	What is the purpose of the <option> tag in a <select> element?
+31.	How do you create a text area in HTML?
+32.	What is the purpose of the <fieldset> and <legend> tags in HTML forms?
+33.	How do you create a hidden field in HTML?
+34.	What is the <input type="file"> element used for?
+35.	How do you create a submit button in HTML?
+36.	What is the purpose of the <button> tag in HTML?
+37.	How do you create a reset button in HTML?
+38.	What is the difference between <input type="button"> and <button> tags?
+39.	How do you create an email link in HTML?
+40.	What is the purpose of the target attribute in anchor tags?
+41.	How do you create an anchor link that opens in a new tab?
+42.	What is the difference between target="_blank" and target="_self"?
+43.	How do you create a tooltip in HTML?
+44.	How do you create an image map in HTML?
+45.	What is the purpose of the <map> and <area> tags?
+46.	How do you create a responsive image in HTML?
+47.	What is the purpose of the srcset attribute in an <img> tag?
+48.	How do you create a responsive video in HTML?
+49.	What are the HTML5 elements for embedding multimedia?
+50.	How do you embed an audio file in an HTML page?
+51.	What is the purpose of the <source> tag in the <audio> and <video> elements?
+52.	How do you create a video player with controls in HTML?
+53.	How do you embed a YouTube video in an HTML page?
+54.	What is the purpose of the <iframe> tag in HTML?
+55.	How do you create a scrollable section in an HTML page?
+56.	What is the <marquee> tag, and why is it deprecated?
+57.	How do you create a responsive navigation menu in HTML?
+58.	What is the purpose of the <nav> tag in HTML5?
+59.	How do you create a navigation bar with dropdowns using HTML?
+60.	What is the purpose of the <ul> and <li> tags in creating menus?
+61.	How do you create a footer for a webpage in HTML?
+62.	What is the purpose of the <footer> tag in HTML5?
+63.	How do you create a header for a webpage in HTML?
+64.	What is the purpose of the <header> tag in HTML5?
+65.	How do you create a section of a webpage using HTML?
+66.	What is the purpose of the <section> tag in HTML5?
+67.	How do you create an article in HTML?
+68.	What is the purpose of the <article> tag in HTML5?
+69.	How do you create an aside section in HTML?
+70.	What is the purpose of the <aside> tag in HTML5?
+71.	How do you create a blockquote in HTML?
+72.	What is the difference between the <blockquote> and <q> tags?
+73.	How do you create a horizontal rule in HTML?
+74.	What is the purpose of the <hr> tag in HTML?
+75.	How do you create a line break in HTML?
+76.	What is the purpose of the <br> tag in HTML?
+77.	How do you create superscript and subscript text in HTML?
+78.	What is the purpose of the <sup> and <sub> tags?
+79.	How do you create a code block in HTML?
+80.	What is the purpose of the <code> tag in HTML?
+81.	How do you create preformatted text in HTML?
+82.	What is the purpose of the <pre> tag in HTML?
+83.	How do you create a definition list in HTML?
+84.	What is the purpose of the <dl>, <dt>, and <dd> tags?
+85.	How do you create a figure with a caption in HTML?
+86.	What is the purpose of the <figure> and <figcaption> tags?
+87.	How do you create an abbreviation in HTML?
+88.	What is the purpose of the <abbr> tag in HTML?
+89.	How do you create a citation in HTML?
+90.	What is the purpose of the <cite> tag in HTML?
+91.	How do you create a time element in HTML?
+92.	What is the purpose of the <time> tag in HTML5?
+93.	How do you create a progress bar in HTML5?
+94.	What is the purpose of the <progress> tag in HTML5?
+95.	How do you create a meter element in HTML5?
+96.	What is the purpose of the <meter> tag in HTML5?
+97.	How do you create a data list in HTML5?
+98.	What is the purpose of the <datalist> tag in HTML5?
+99.	How do you create a details element in HTML5?
+100.	What is the purpose of the <details> and <summary> tags in HTML5?

@@ -1,0 +1,102 @@
+CSS Questions:-
+
+1.	What is CSS?
+2.	Explain the different types of CSS (inline, internal, external).
+3.	What is the difference between class and id selectors in CSS?
+4.	How do you apply multiple classes to an HTML element?
+5.	What is the CSS Box Model?
+6.	How do you center an element horizontally and vertically using CSS?
+7.	What are CSS selectors? Name a few common ones.
+8.	Explain the difference between padding and margin.
+9.	What is the difference between position: relative, position: absolute, and position: fixed?
+10.	How do you create a responsive design using CSS?
+11.	What are media queries in CSS?
+12.	Explain the concept of CSS specificity.
+13.	What is the difference between display: none and visibility: hidden?
+14.	How do you create a gradient background in CSS?
+15.	What are pseudo-classes in CSS? Give examples.
+16.	How do you create a shadow effect using CSS?
+17.	What is Flexbox in CSS?
+18.	How do you create a sticky element using CSS?
+19.	What is the purpose of the z-index property in CSS?
+20.	Explain the concept of float and clear in CSS.
+21.	How do you apply CSS to only one section of the page?
+22.	What are pseudo-elements in CSS? Give examples.
+23.	What is the difference between em, rem, and px units in CSS?
+24.	How do you create a CSS grid layout?
+25.	What is the box-sizing property in CSS?
+26.	How do you animate elements using CSS?
+27.	What is the difference between inline, block, and inline-block elements in CSS?
+28.	How do you create a responsive image gallery using CSS?
+29.	What is the transition property in CSS?
+30.	How do you hide an element without using display: none?
+31.	What is the overflow property in CSS?
+32.	How do you create a hover effect using CSS?
+33.	What is the transform property in CSS?
+34.	How do you create a navigation menu with dropdowns using CSS?
+35.	What is the difference between visibility: hidden and opacity: 0?
+36.	How do you use the clip-path property in CSS?
+37.	What is the @import rule in CSS?
+38.	How do you use custom fonts in CSS?
+39.	What are CSS variables, and how do you use them?
+40.	How do you use the calc() function in CSS?
+41.	What is the content property used for in CSS?
+42.	How do you create a responsive table using CSS?
+43.	What is the display: grid property in CSS?
+44.	How do you create a full-page background image using CSS?
+45.	What are CSS preprocessors? Name a few.
+46.	What is the :nth-child selector in CSS?
+47.	How do you create a modal using HTML and CSS?
+48.	What is the @media rule in CSS?
+49.	How do you style an element based on its state (e.g., :hover, :focus) in CSS?
+50.	How do you create a multi-column layout using CSS?
+51.	What is the difference between position: static and position: fixed?
+52.	How do you create a full-width element in CSS?
+53.	What is the difference between min-width and max-width?
+54.	How do you create a responsive font size using CSS?
+55.	What is the line-height property in CSS?
+56.	How do you create a sticky footer using CSS?
+57.	What is the word-wrap property in CSS?
+58.	How do you create a parallax scrolling effect using CSS?
+59.	What is the filter property in CSS?
+60.	How do you create an image carousel using CSS?
+61.	What is the difference between float and flex in CSS?
+62.	How do you create a fixed header using CSS?
+63.	What is the pointer-events property in CSS?
+64.	How do you create a responsive navigation bar using CSS?
+65.	What is the aspect-ratio property in CSS?
+66.	How do you create a card layout using CSS?
+67.	What is the outline property in CSS?
+68.	How do you create a transparent background using CSS?
+69.	What is the cursor property in CSS?
+70.	How do you create a responsive button using CSS?
+71.	What is the object-fit property in CSS?
+72.	How do you create a loading spinner using CSS?
+73.	What is the difference between position: relative and position: absolute?
+74.	How do you create a fixed sidebar using CSS?
+75.	What is the white-space property in CSS?
+76.	How do you create a tooltip using CSS?
+77.	What is the text-transform property in CSS?
+78.	How do you create a full-height element in CSS?
+79.	What is the letter-spacing property in CSS?
+80.	How do you create a responsive grid layout using CSS?
+81.	What is the column-count property in CSS?
+82.	How do you create a fixed footer using CSS?
+83.	What is the backdrop-filter property in CSS?
+84.	How do you create a responsive form using CSS?
+85.	What is the word-spacing property in CSS?
+86.	How do you create a text shadow using CSS?
+87.	What is the text-overflow property in CSS?
+88.	How do you create a responsive image using CSS?
+89.	What is the font-weight property in CSS?
+90.	How do you create a dropdown menu using CSS?
+91.	What is the scroll-behavior property in CSS?
+92.	How do you create a responsive footer using CSS?
+93.	What is the background-blend-mode property in CSS?
+94.	How do you create a sticky header using CSS?
+95.	What is the flex-wrap property in CSS?
+96.	How do you create a responsive navbar using CSS?
+97.	What is the animation property in CSS?
+98.	How do you create a responsive hero section using CSS?
+99.	What is the grid-template-columns property in CSS?
+100.How do you create a CSS-only accordion?
