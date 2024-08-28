@@ -1,6 +1,17 @@
+html{
+    margin: 1rem;
+    background-color: rgb(51, 65, 112);
+    color: aliceblue;
+}
+
 header{
     display: flex;
     justify-content: space-between;
+}
+
+header h1 a{
+    color: aliceblue;
+    text-decoration: none;
 }
 
 .nav-link{
@@ -11,18 +22,16 @@ header{
 
 .nav-link a{
     text-decoration: none;
+    color: aliceblue;
     font-size: larger;
     font-weight: 900;
-}
-
-.nav-link li{
     margin: 1rem 1rem;
-
 }
 
 .my-detail{
     display: flex;
     align-items: center;
+    padding: 0 5rem;
     
 }
 
@@ -34,4 +43,15 @@ header{
 
 .social-media-link li{
     margin: 0rem 2rem;
+}
+
+.download-cv{
+    margin: 20rem;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 1.8rem;
+}
+
+.profile-image img{
+    border-radius: 10%;
 }
