@@ -15,25 +15,26 @@
         <h1><a href="#">My Portfolio</a></h1>
         <nav>
             <ul class="nav-link">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#home-section">Home</a></li>
+                <li><a href="#about-section">About</a></li>
+                <li><a href="#project-section">Projects</a></li>
+                <li><a href="#contact-section">Contact Us</a></li>
             </ul>
         </nav>
     </header>
 
-    <section style="border: 2px solid red;" class="my-detail">
-        <div style="border: 2px solid red;">
-            <h2 style="border: 2px solid rgb(214, 211, 18);">Hi, My name is</h2>
-            <h1 style="border: 2px solid rgb(255, 217, 0);">Himanshu Vishwakarma</h1>
-            <h2 style="border: 2px solid red;">I am a Front-End Developer.</h2>
-            <p style="border: 2px solid red; font-size: 1.2rem;">Recent BCA graduate and skilled Front-End Developer with expertise in HTML, CSS, JavaScript, and
+    <section style="border: 2px solid grey;" id="home-section">
+        <div style="border: 2px solid grey;" class="my-detail">
+            <h2 style="border: 2px solid grey;">Hi, My name is</h2>
+            <h1 style="border: 2px solid grey;">Himanshu Vishwakarma</h1>
+            <h2 style="border: 2px solid grey;">I am a Front-End Developer.</h2>
+            <p style="border: 2px solid grey; font-size: 1.2rem;">Recent BCA graduate and skilled Front-End Developer
+                with expertise in HTML, CSS, JavaScript, and
                 frameworks like React.js and Next.js. Eager to apply my knowledge and create responsive, user-friendly
                 interfaces.
             </p>
-            <ul style="border: 2px solid red;" class="social-media-link">
-                <li style="border: 2px solid red;">
+            <ul style="border: 2px solid grey;" class="social-media-link">
+                <li style="border: 2px solid grey;">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#000000"
                         fill="none">
                         <path
@@ -46,16 +47,16 @@
                             d="M12.326 9.5H11.5C10.5572 9.5 10.0858 9.5 9.79289 9.79289C9.5 10.0858 9.5 10.5572 9.5 11.5V20C9.5 20.9428 9.5 21.4142 9.79289 21.7071C10.0858 22 10.5572 22 11.5 22H12C12.9428 22 13.4142 22 13.7071 21.7071C14 21.4142 14 20.9428 14 20L14.0001 16.5001C14.0001 14.8433 14.5281 13.5001 16.0879 13.5001C16.8677 13.5001 17.5 14.1717 17.5 15.0001V19.5001C17.5 20.4429 17.5 20.9143 17.7929 21.2072C18.0857 21.5001 18.5572 21.5001 19.5 21.5001H19.9987C20.9413 21.5001 21.4126 21.5001 21.7055 21.2073C21.9984 20.9145 21.9985 20.4432 21.9987 19.5006L22.0001 14.0002C22.0001 11.515 19.6364 9.50024 17.2968 9.50024C15.9649 9.50024 14.7767 10.1531 14.0001 11.174C14 10.5439 14 10.2289 13.8632 9.995C13.7765 9.84686 13.6531 9.72353 13.505 9.63687C13.2711 9.5 12.9561 9.5 12.326 9.5Z"
                             stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" />
                     </svg>
-                    </li style="border: 2px solid red;">
-                    <li style="border: 2px solid red;">
+                </li style="border: 2px solid grey;">
+                <li style="border: 2px solid grey;">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#000000"
                         fill="none">
                         <path
                             d="M3 21L10.5484 13.4516M21 3L13.4516 10.5484M13.4516 10.5484L8 3H3L10.5484 13.4516M13.4516 10.5484L21 21H16L10.5484 13.4516"
                             stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                     </svg>
-                    </li>
-                    <li style="border: 2px solid red;">    
+                </li>
+                <li style="border: 2px solid grey;">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#000000"
                         fill="none">
                         <path fill-rule="evenodd" clip-rule="evenodd"
@@ -64,13 +65,29 @@
                     </svg>
                 </li>
             </ul>
-            <a href="#" style="border: 2px solid red;" class="download-cv" >Download CV</a>
+            <div class="download-cv-link">
+                <a href="#" style="border: 2px solid grey;">Download CV</a>
+            </div>
         </div>
-        <div style="border: 2px solid red;" class="profile-image">
+        <div style="border: 2px solid grey;" class="profile-image">
             <img src="./profile_image.jpeg" alt="profile_image">
         </div>
-
+    </section class="about-section">
+    
+    <section id="about-section">
+        <div>
+            <img src="./profile_image.jpeg" alt="profile_image">
+        </div>
+        <div>
+            <h1>About Me</h1>
+            <h2>Front-End Developer</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia quo sapiente repellendus assumenda dolorum voluptatum. Enim obcaecati neque deleniti soluta consequuntur dignissimos distinctio nam est quidem esse quisquam hic optio illo eos blanditiis qui, aspernatur, laborum voluptates. Debitis ducimus id aliquam repellat optio. Nihil expedita quia nulla aut, odio qui!
+            </p>
+        </div>
     </section>
+
+    
 
 </body>
 

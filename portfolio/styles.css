@@ -1,26 +1,27 @@
-html{
-    margin: 1rem;
+html {
     background-color: rgb(51, 65, 112);
     color: aliceblue;
 }
 
-header{
+header {
     display: flex;
     justify-content: space-between;
+    position: sticky;
+    top: 0%;
 }
 
-header h1 a{
+header h1 a {
     color: aliceblue;
     text-decoration: none;
 }
 
-.nav-link{
+.nav-link {
     display: flex;
     list-style-type: none;
     padding-right: 5rem;
 }
 
-.nav-link a{
+.nav-link a {
     text-decoration: none;
     color: aliceblue;
     font-size: larger;
@@ -28,30 +29,52 @@ header h1 a{
     margin: 1rem 1rem;
 }
 
-.my-detail{
+#home-section {
+    height: 100vh;
     display: flex;
     align-items: center;
-    padding: 0 5rem;
-    
+    width: fit-content;
+    padding: 1rem 3rem;
 }
 
-.social-media-link{
+.my-detail {
+    margin: 0 2rem 0 0;
+}
+
+.social-media-link {
     display: flex;
     list-style-type: none;
     margin: 0rem 2rem;
 }
 
-.social-media-link li{
-    margin: 0rem 2rem;
+.social-media-link li {
+    margin: .2rem .8rem;
+    padding: .5rem;
+    border-radius: 45%;
 }
 
-.download-cv{
-    margin: 20rem;
+.download-cv-link {
+    text-decoration: none;
+    font-size: 1.8rem;
+    padding: 1rem;
+}
+
+.download-cv-link a{
     text-decoration: none;
     color: aliceblue;
+    display: grid;
+    text-align: center;
     font-size: 1.8rem;
 }
 
-.profile-image img{
-    border-radius: 10%;
+.profile-image img {
+    border-radius: 50%;
+}
+
+.about-section{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    padding: 1rem 3rem;
 }
