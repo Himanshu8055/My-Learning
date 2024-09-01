@@ -29,7 +29,7 @@ header h1 a {
     margin: 1rem 1rem;
 }
 
-#home-section {
+section {
     height: 100vh;
     display: flex;
     align-items: center;
@@ -71,10 +71,7 @@ header h1 a {
     border-radius: 50%;
 }
 
-.about-section{
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    width: fit-content;
-    padding: 1rem 3rem;
+.profile-image img {
+    border-radius: 50%;
 }
+
