@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 4</title>
+
+    <!-- HTML Links - Different Colors -->
+
+    <style>
+        a {
+            margin: 1rem;
+            ;
+        }
+
+        a:link {
+            color: green;
+            background-color: transparent;
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: pink;
+            background-color: transparent;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: red;
+            background-color: transparent;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: yellow;
+            background-color: transparent;
+            text-decoration: overline;
+        }
+
+        a:link,
+        a:visited {
+            background-color: #f44336;
+            color: white;
+            padding: 15px 25px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        a:hover,
+        a:active {
+            background-color: red;
+        }
+    </style>
+
+</head>
+
+<body>
+    <p id="heading">
+    <h1>This is Heading</h1>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas quisquam laudantium itaque nisi officiis quae
+    porro, optio totam quasi, amet consequatur labore commodi ad nesciunt assumenda, mollitia ratione cum rem.</p>
+
+    <!-- HTML Links:
+         Use an Image as a Link -->
+    <a href="https://www.google.com">
+        <img src="https://logos-world.net/wp-content/uploads/2020/09/Google-Logo-1998-1999.jpg" alt="stack"
+            height="100px">
+    </a><br>
+
+    <!-- Link to an Email Address -->
+    <a href="mailto:khv8055@gmail.com">Mail Himanshu</a> <br>
+
+    <!-- button as a link:  -->
+    <button onclick="document.location='https://www.google.com'">HTML Tutorial</button> <br>
+
+    <!-- Link Titles -->
+    <a href="https://www.google.com" title="Google Home Page">Google</a> <br>
+
+
+    <!-- HTML Links- Create Bookmark -->
+
+    <a href="#heading">Go to Heading</a> <br>
+
+
+    <!-- HTML Images -->
+    <img src="https://logos-world.net/wp-content/uploads/2020/09/Google-Logo-1998-1999.jpg" alt="google" height="100px">
+    <br>
+
+    <!-- If image present in another folder -->
+    <img src="../../portfolio/profile_image.jpeg" alt="Profile Image" height="100px"> <br>
+
+    <!-- Image Floating -->
+    <div>
+        <h3>Profile Image</h3>
+        <span style="display: flex;">
+            <p style="align-content: center;">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque recusandae aliquid doloribus, fugit
+                eaque aut ipsa dolorum animi nihil aspernatur quia, molestiae molestias vel quisquam quos labore
+                doloremque vero necessitatibus.
+            </p>
+            <img src="../../portfolio/profile_image.jpeg" alt="Profie Image" style="float: right;" height="200px">
+        </span>
+    </div>
+
+    
+
+</body>
+
+</html>
