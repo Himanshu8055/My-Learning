@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 06</title>
+    <style>
+        th {
+            border: 2px solid red;
+        }
+
+        td {
+            border: 2px solid red;
+        }
+
+        tr:nth-child(odd){
+            background-color: #79b86d;
+        }
+        td:nth-child(even), th:nth-child(even) {
+  background-color: #D6EEEE;
+}
+    </style>
+</head>
+
+<body>
+    <!-- HTML Tables:
+     It allows to arrange data into rows and coloumns -->
+
+    <!-- Row wise -->
+    <h3>Table 1</h3>
+    <table style="display: grid; text-align: center; border-collapse: collapse;">
+        <!-- 
+        <colgroup>
+            <col span="2" style="background-color: blue;">
+            <col style="background-color:yellow">
+
+        </colgroup>
+        
+        I don't know  this.
+        -->
+
+        <tr>
+            <th>Roll no.</th>
+            <th>Name</th>
+            <th>Country</th>
+        </tr>
+        <tr>
+            <td>01</td>
+            <td>Himanshu Vishwakarma</td>
+            <td>India</td>
+        </tr>
+        <tr>
+            <td>02</td>
+            <td>Sakshi Vishwakarma</td>
+            <td>India</td>
+        </tr>
+        <tr>
+            <td>03</td>
+            <td>Suhani Vishwakarma</td>
+            <td>India</td>
+        </tr>
+        <tr>
+            <td>04</td>
+            <td>Amit Vishwakarma</td>
+            <td>India</td>
+        </tr>
+    </table>
+
+    <!-- Coloumn Wise  -->
+    <h3>Table 2</h3>
+    <table>
+        <tr>
+            <th>Roll no.</th>
+            <td>01</td>
+            <td>02</td>
+        </tr>
+        <tr>
+            <th>Name</th>
+            <td>Himanshu</td>
+            <td>Suhani</td>
+        </tr>
+        <tr>
+            <th>Country</th>
+            <td>India</td>
+            <td>India</td>
+        </tr>
+    </table>
+
+    <!-- Colspan and Rowspan:
+     take coloumn and row according to the setting. -->
+    <h3>Colspan and Rowspan</h3>
+    <table>
+        <tr>
+            <th colspan="2">Roll no.</th>
+            <th>Name</th>
+            <th>Country</th>
+        </tr>
+        <tr>
+            <td rowspan="2">01</td>
+            <td>Himanshu Vishwakarma</td>
+            <td>India</td>
+        </tr>
+        <tr>
+            <td>02</td>
+            <td>Sakshi Vishwakarma</td>
+            <td>India</td>
+        </tr>
+        <tr>
+            <td>03</td>
+            <td>Suhani Vishwakarma</td>
+            <td>India</td>
+        </tr>
+        <tr>
+            <td>04</td>
+            <td>Amit Vishwakarma</td>
+            <td>India</td>
+        </tr>
+    </table>
+
+
+
+</body>
+
+</html>
