@@ -1,0 +1,18 @@
+{
+    "scm.inputFontSize": 10,
+    "editor.fontSize": 12,
+    "editor.tabSize": 2,
+    "editor.cursorStyle": "line",
+    "editor.wordWrap": "on",
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": false,
+    "editor.codeLens": true,
+    "scm.alwaysShowActions": false,
+    "scm.alwaysShowRepositories": true,
+    "scm.compactFolders": true,
+    "scm.providerCountBadge": "visible",
+    "scm.showActionButton": true,
+    "scm.showInputActionButton": true,
+    "scm.workingSets.enabled": false,
+    "git.showCommitInput": true,
+    "git.optimisticUpdate": true
+}
