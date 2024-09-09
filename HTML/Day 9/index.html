@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Day 9</title>
+  <style>
+    .multipleContainerFloat {
+      width: 100%;
+      overflow: auto;
+    }
+
+    .multipleContainerFloat div {
+      width: fit-content;
+      /* float: left; */
+      display: inline-block;
+    }
+
+    .multipleContainerGrid {
+      display: grid;
+      grid-template-columns: 20% 20% 20% 20% 20% 20%;
+    }
+
+    .multipleContainerFlex {
+      display: flex;
+      width: fit-content;
+    }
+    .city p{
+      width: fit-content;
+      margin: 0 0 1rem 1.5rem;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- HTML Div element:
+     <div> element can be used as a container. -->
+
+  <!-- div as a container:
+    We can use div as a container.  -->
+  <div>
+    <h1>Introduction</h1>
+    <p>My name is Amit.</p>
+    <p>I study in class 3<sup>rd</sup>.</p>
+  </div>
+
+  <!-- multiple div elements:  -->
+  <h3>Using Float</h3>
+  <div class="multipleContainerFloat">
+    <div style="border: 2px solid yellow; background-color: aquamarine; padding: 1rem;">
+      <h3>Introduction 1</h3>
+      <p>My name is Amit.</p>
+      <p>I study in class 3<sup>rd</sup>.</p>
+    </div>
+    <div style="border: 2px solid yellow; background-color: aquamarine; padding: 1rem;">
+      <h3>Introduction 2</h3>
+      <p>My name is Amit.</p>
+      <p>I study in class 3<sup>rd</sup>.</p>
+    </div>
+    <div style="border: 2px solid yellow; background-color: aquamarine; padding: 1rem;">
+      <h3>Introduction 3</h3>
+      <p>My name is Amit.</p>
+      <p>I study in class 3<sup>rd</sup>.</p>
+    </div>
+    <div style="border: 2px solid yellow; background-color: aquamarine; padding: 1rem;">
+      <h3>Introduction 4</h3>
+      <p>My name is Amit.</p>
+      <p>I study in class 3<sup>rd</sup>.</p>
+    </div>
+    <div style="border: 2px solid yellow; background-color: aquamarine; padding: 1rem;">
+      <h3>Introduction 5</h3>
+      <p>My name is Amit.</p>
+      <p>I study in class 3<sup>rd</sup>.</p>
+    </div>
+  </div>
+
+  <!-- Using grid -->
+  <h3>Using Grid</h3>
+  <div class="multipleContainerGrid">
+    <div style="border: 2px solid yellow; background-color: aquamarine; padding: 1rem;">
+      <h3>Introduction 1</h3>
+      <p>My name is Amit.</p>
+      <p>I study in class 3<sup>rd</sup>.</p>
+    </div>
+    <div style="border: 2px solid yellow; background-color: aquamarine; padding: 1rem;">
+      <h3>Introduction 2</h3>
+      <p>My name is Amit.</p>
+      <p>I study in class 3<sup>rd</sup>.</p>
+    </div>
+    <div style="border: 2px solid yellow; background-color: aquamarine; padding: 1rem;">
+      <h3>Introduction 3</h3>
+      <p>My name is Amit.</p>
+      <p>I study in class 3<sup>rd</sup>.</p>
+    </div>
+    <div style="border: 2px solid yellow; background-color: aquamarine; padding: 1rem;">
+      <h3>Introduction 4</h3>
+      <p>My name is Amit.</p>
+      <p>I study in class 3<sup>rd</sup>.</p>
+    </div>
+    <div style="border: 2px solid yellow; background-color: aquamarine; padding: 1rem;">
+      <h3>Introduction 5</h3>
+      <p>My name is Amit.</p>
+      <p>I study in class 3<sup>rd</sup>.</p>
+    </div>
+  </div>
+
+  <!-- Using Flex -->
+  <h3>Using Flex</h3>
+  <div class="multipleContainerFlex">
+    <div style="border: 2px solid yellow; background-color: aquamarine; padding: 1rem;">
+      <h3>Introduction 1</h3>
+      <p>My name is Amit.</p>
+      <p>I study in class 3<sup>rd</sup>.</p>
+    </div>
+    <div style="border: 2px solid yellow; background-color: aquamarine; padding: 1rem;">
+      <h3>Introduction 2</h3>
+      <p>My name is Amit.</p>
+      <p>I study in class 3<sup>rd</sup>.</p>
+    </div>
+    <div style="border: 2px solid yellow; background-color: aquamarine; padding: 1rem;">
+      <h3>Introduction 3</h3>
+      <p>My name is Amit.</p>
+      <p>I study in class 3<sup>rd</sup>.</p>
+    </div>
+    <div style="border: 2px solid yellow; background-color: aquamarine; padding: 1rem;">
+      <h3>Introduction 4</h3>
+      <p>My name is Amit.</p>
+      <p>I study in class 3<sup>rd</sup>.</p>
+    </div>
+    <div style="border: 2px solid yellow; background-color: aquamarine; padding: 1rem;">
+      <h3>Introduction 5</h3>
+      <p>My name is Amit.</p>
+      <p>I study in class 3<sup>rd</sup>.</p>
+    </div>
+  </div>
+
+  <!-- HTML Class Attribute:
+    It is used to specify class in HTML. Multple HTML element can share same class. -->
+  <h1>HTML Class Attribute</h1>
+  <div class="city">
+    <h3>London</h3>
+    <p>London is the capital of England.</p>
+  </div>
+
+  <div class="city">
+    <h3>Paris</h3>
+    <p>Paris is the capital of France.</p>
+  </div>
+
+  <div class="city">
+    <h3>Tokyo</h3>
+    <p>Tokyo is the capital of Japan.</p>
+  </div>
+
+
+</body>
+
+</html>
