@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Day 10</title>
+  <style>
+    #himanshu {
+      background-color: greenyellow;
+
+    }
+  </style>
+</head>
+
+<body>
+  <!-- HTML id Attribute:
+    It is used to specify unique id for html element. It must not have more than same id to another element. -->
+  <h1 id="himanshu">Himanshu</h1>
+
+  <!-- HTML bookmark with id link:
+     It is used to link to a specific part of the page. -->
+  <a href="#himanshu">Link to Himanshu</a> <br><br>
+  <button onclick=displayData() type="button">Show Greeting</button><br><br>
+
+  <!-- Using the id Attribute in Javascript  -->
+  <script>
+    function displayData() {
+      document.getElementById("himanshu").innerHTML = "Hello Himanshu";
+    }
+  </script>
+
+  <!-- HTML iframes:
+   It is used to embed another document within the current HTML document. -->
+  <div>
+    <div style="display: flex; justify-content: space-between;
+      align-content: center;">
+      <iframe src="index.html" name="frame_1" height="350" width="250" title="W3School" style="border: none;">w3school.com</iframe>
+
+      <iframe src="https://moviflixx.netlify.app/" width="250" height="350" title="Moviflixx"
+        style="border: none;">moviflixx</iframe>
+
+    </div>
+    <div>
+      <a href="https://moviflixx.netlify.app/" target="frame_1">Moviflixx</a>
+    </div>
+  </div>
+</body>
+
+</html>
