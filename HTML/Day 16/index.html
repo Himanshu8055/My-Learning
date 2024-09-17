@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Day 16</title>
+</head>
+
+<body>
+  <h1>HTML Uniform Resource Locators:</h1>
+  <!-- 
+    Note:
+    1. A URL is used to get another address.
+    2. It is composed of words or an IP address.
+    3. It is used to address another document.
+    4. Syntax:
+        scheme://prefix.domain:port/path/filename
+  -->
+
+  <!-- 
+    HTML vs XHTML:
+     XHTML:
+     1. It is a markup language.
+     2. It is a subset of XML.
+     3. Elements always be closed.
+     4. It is case sensitive.
+     5. It is used for web pages.
+     6. Elements must be written in lowercase.
+     7. Attributes values must always be quited.
+   -->
+
+  <!--
+      HTML Forms:
+      1. It is used to get user input.
+      2. It is used to send data to the server.   
+     -->
+  <h1>HTML Forms</h1>
+  <form action="post">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" placeholder="Enter your name...">
+    <br><br>
+    <label for="mobile">Mobile No. :</label>
+    <input type="tel" id="mobile" name="mobile" placeholder="Mobile no...">
+    <br><br>
+    <label for="gender">Gender :</label>
+    <input type="radio" name="gender" id="male" value="male">Male
+    <input type="radio" name="gender" id="female" value="female">Female
+    <input type="radio" name="gender" id="other" value="other">Other
+    <br><br>
+  </form>
+
+  <!-- 
+  HTML Form Attributes:
+
+    The Action attribute:
+      1. It defines the action to be performed when the form is submitted.
+      2. The will be sent on server when user clicked on submit button.
+
+    The Target Attribute:
+    It is used to display response after receiving the form.
+
+    Method Attribute:
+    1. It is used to specify the HTTP method to be used when submitting the form.
+    2. The default HTTP method when submitting form data is GET.
+
+    Tip:
+    Always use post when use sensitive or personal data.
+  -->
+
+  <form action="/submit_page.php" target="_blank" method="dialog" autocomplete="on" novalidate>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" placeholder="Enter your name...">
+    <br><br>
+    <label for="mobile">Mobile No. :</label>
+    <input type="number" id="mobile" name="mobile" placeholder="Mobile no...">
+    <br><br>
+    <input type="submit" value="Submit">
+  </form>
+
+  <!-- 
+    Notes on GET:
+      1. URL length is limited (2048 Character).
+      2. It is good for non-secure data, like query strings in google.
+      
+    Notes on POST:
+      1. Data is not shown in the url.
+      2. It is good for secure data, like login credentials.
+      3. Form submission with POST cannot be bookmarked.
+  -->
+
+  <!--
+    Novalidate Attribute:
+      It is a boolean attribute.
+      Specifies that input is valid whrn submitted.
+  -->
+
+  
+
+</body>
+
+</html>

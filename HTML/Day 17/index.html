@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Day 17</title>
+</head>
+
+<body>
+  <!-- HTML Form Elements: -->
+  <h1>HTML Form Elements</h1>
+  <form action="">
+
+    <!-- label element -->
+    <label for="name">Name:</label>
+
+    <!-- input element -->
+    <input type="text" id="name" name="name" placeholder="Enter your name">
+
+    <!-- select element -->
+    <select name="Car" id="cars" size="2" multiple>
+
+      <!-- option elements -->
+      <option value="volvo">Volvo</option>
+      <option value="farari">Farari</option>
+      <option value="scorpio">Scorpio</option>
+      <option value="Maruti" selected>Maruti</option>
+    </select>
+
+    <!-- 
+      Multiple: To Select multiple values.
+      Size: To display the number of options to display in the dropdown list.
+    -->
+
+    <!-- textarea element -->
+    <textarea name="description" id="description" cols="30" rows="10"></textarea>
+
+    <!-- button element -->
+    <button type="button" onclick="alert('My name is Himanshu')">Submit</button>
+
+    <!-- Fieldset and legend element -->
+    <form action="">
+      <fieldset>
+        <legend>Personal Details</legend>
+        <label for="name">First Name:</label><br>
+        <input type="text" id="name" name="name"><br><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname"><br><br>
+        <input type="submit" value="Submit">
+      </fieldset>
+      <br><br>
+      <!-- datalist: Is used to specify the list of predefined options for input elements -->
+      <label for="datalist">datalist:</label><br>
+      <input list="browsers">
+      <datalist id="browsers">
+        <option value="Edge">
+        <option value="Firefox">
+        <option value="Chrome">
+        <option value="Opera">
+        <option value="Safari">
+      </datalist>
+
+    </form>
+
+    <!-- output -->
+    <form action="" oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+      0<input type="range" id="a" name="a" value="50">
+      100 +
+      <input type="number" id="b" name="b" value="50"> =
+      <output name="x" for="a b"></output>
+      <br><br>
+      <input type="submit">
+    </form>
+
+    <!--
+      HTML input types:
+      <input type="button">
+      <input type="checkbox">
+      <input type="color">
+      <input type="date">
+      <input type="datetime-local">
+      <input type="email">
+      <input type="file">
+      <input type="hidden">
+      <input type="image">
+      <input type="month">
+      <input type="number">
+      <input type="password">
+      <input type="radio">
+      <input type="range">
+      <input type="reset">
+      <input type="search">
+      <input type="submit">
+      <input type="tel">
+      <input type="text">
+      <input type="time">
+      <input type="url">
+      <input type="week">
+    -->
+
+
+</body>
+
+</html>
