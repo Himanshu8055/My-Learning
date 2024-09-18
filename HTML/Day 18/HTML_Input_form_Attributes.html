@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML Input form Attributes</title>
+</head>
+
+<body>
+  <h1>HTML Input form Attributes</h1>
+
+  <!-- The form Attribute: Specifies the form the <input> element belongs to. -->
+  <form id="form1">
+    <label for="fname">First name:</label>
+    <input type="text" id="fname" name="fname"><br><br>
+    <input type="submit" value="Submit">
+  </form>
+  
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname" form="form1">
+
+</body>
+
+</html>
