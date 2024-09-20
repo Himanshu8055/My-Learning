@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Day 19</title>
+</head>
+
+<body>
+  <h1>HTML Canvas Graphics</h1>
+  <!-- 
+  HTML Canvas:
+  <canvas> element is used to draw graphics, on the fly, via JavaScript. It is a container. we can draw graphics by using javascript.
+  -->
+  <canvas id="myCanvas" width="400" height="200" style="border:1px solid #000000;"></canvas>
+  <script>
+    var c = document.getElementById("myCanvas");
+    var ctx = c.getContext("2d");
+    ctx.moveTo(0, 0);
+    ctx.lineTo(2000, 1000);
+    ctx.stroke();
+  </script>
+  <script>
+    var c = document.getElementById("myCanvas");
+    var ctx = c.getContext("2d");
+    ctx.beginPath();
+    ctx.arc(200, 100, 100, 0, 2 * Math.PI);
+    ctx.stroke();
+  </script>
+  <script>
+    var c = document.getElementById("myCanvas");
+    var ctx = c.getContext("2d");
+    ctx.font = "30px Arial";
+    ctx.fillText("Hello World", 120, 110);
+  </script>
+  <script>
+    var c = document.getElementById("myCanvas");
+    var ctx = c.getContext("2d");
+    ctx.font = "30px Arial";
+    ctx.strokeText("Hello World", 121, 108);
+  </script>
+
+  <h1>Go to: <a href="svg.html">SVG Page</a></h1>
+
+</body>
+
+</html>

@@ -11,14 +11,115 @@
   <h1>HTML Input form Attributes</h1>
 
   <!-- The form Attribute: Specifies the form the <input> element belongs to. -->
-  <form id="form1">
-    <label for="fname">First name:</label>
-    <input type="text" id="fname" name="fname"><br><br>
+  <fieldset>
+    <legend>Form 1</legend>
+    <form id="form1">
+      <label for="fname">First name:</label>
+      <input type="text" id="fname" name="fname"><br><br>
+      <input type="submit" value="Submit">
+    </form>
+
+    <label for="lname">Last name:</label>
+    <input type="text" id="lname" name="lname" form="form1">
+  </fieldset>
+  <br><br>
+
+  <!-- The formaction Attribute:Specifies that the URL file of the file will process the input when the form is submitted. -->
+  <fieldset>
+    <legend>Forn 2</legend>
+    <form action="action_page.php">
+      <label for="fname">First name:</label>
+      <input type="text" id="fname" name="fname">
+      <br><br>
+
+      <label for="lname">Last name:</label>
+      <input type="text" name="lname" id="lname">
+      <br><br>
+
+      <input type="submit" value="submit">
+      <input type="submit" value="submit as admin" formaction="/action_page2.php">
+    </form>
+  </fieldset>
+  <br><br>
+
+  <!-- The formenctype Attribute: Specifies how the form-data should be encoded when submitted. -->
+  <fieldset>
+    <legend>Form 3</legend>
+    <form id="form2" action="/action_page.php" method="post">
+      <label for="fname">First name:</label>
+      <input type="text" name="fname" id="fname">
+      <br><br>
+
+      <input type="submit" value="submit">
+      <input type="submit" formenctype="multipart/form-data" value="Submit as multipart/form-data">
+    </form>
+  </fieldset>
+  <br>
+
+  <!--
+  The formmethod Attribute: 
+    This attribute defines the HTTP method for sending form-data to the action URL.
+
+    Note: This attribute overrides the method attribute of the <form> element.
+  -->
+  <fieldset>
+    <legend>Form 4</legend>
+    <form action="/action_page.php" method="get">
+      <label for="fname">First name:</label>
+      <input type="text" id="fname" name="fname">
+      <br><br>
+      <label for="lname">Last name:</label>
+      <input type="text" id="lname" name="lname">
+      <br><br>
+      <input type="submit" value="Submit using GET">
+      <input type="submit" formmethod="post" value="Submit using POST">
+    </form>
+  </fieldset>
+  <br>
+  <!--
+   The formtarget Attribute:
+   This attribute specifies where to open the action URL in a new browser tab or window.
+  -->
+  <fieldset>
+    <legend>Form 5</legend>
+    <form action="/action_page.php">
+      <label for="fname">First name:</label>
+      <input type="text" id="fname" name="fname"><br><br>
+      <label for="lname">Last name:</label>
+      <input type="text" id="lname" name="lname"><br><br>
+      <input type="submit" value="Submit">
+      <input type="submit" formtarget="_blank" value="Submit to a new window/tab">
+    </form>
+  </fieldset>
+<br>
+  <!-- 
+  The formnovalidate Attribute:
+  This attribute specifies that the form should not be validated.  
+  -->
+<fieldset>
+  <legend>Form 6</legend>
+  <form action="/action_page.php">
+    <label for="email">Enter your email:</label>
+    <input type="email" id="email" name="email"><br><br>
+    <input type="submit" value="Submit">
+    <input type="submit" formnovalidate="formnovalidate"
+    value="Submit without validation">
+  </form>
+</fieldset>
+<br>
+
+<!-- 
+The novalidate Attribute: 
+This attribute specifies that the form should not be validated. 
+-->
+<fieldset>
+  <legend>Form 7</legend>
+  <form action="/action_page.php" novalidate>
+    <label for="email">Enter your email:</label>
+    <input type="email" id="email" name="email"><br><br>
     <input type="submit" value="Submit">
   </form>
-  
-  <label for="lname">Last name:</label>
-  <input type="text" id="lname" name="lname" form="form1">
+</fieldset>
 
 </body>
 
