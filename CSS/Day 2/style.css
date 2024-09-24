@@ -1,0 +1,22 @@
+h1 {
+  display: block;
+  text-align: center;
+}
+
+ol{
+  display: flex;
+  justify-content: space-around;
+  font-size: larger;
+}
+
+.way-to-insert-css{
+  display: flex;
+  justify-content: space-between;
+}
+
+.way-to-insert-css div{
+  border: 4px solid salmon;
+  margin: .1rem;
+  padding: 0 0 0 .5rem;
+  width: 30%;
+}         

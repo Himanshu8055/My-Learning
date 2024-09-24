@@ -1,0 +1,17 @@
+*{
+  background-color: rgb(217, 238, 121);
+}
+h1, h2{
+  text-align: center;
+  background-color: rgb(208, 20, 255);
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+ul, li{
+  background-color: rgb(255, 152, 152);
+  margin: 1rem;
+  padding: 1rem ;
+  border-radius: 1rem;
+  font-size: large;
+}
