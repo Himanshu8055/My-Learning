@@ -1,0 +1,13 @@
+body{
+  background-color: lightblue;
+}
+
+.opacityAndTransparency{
+  background-color: brown;
+  opacity: 0.7;
+  padding: .1rem .5rem;
+}
+
+.transparencyUsingRgba{
+  background: rgba(0, 128, 0, 0.3)
+}

@@ -1,8 +1,9 @@
 *{
-  background-color: rgb(217, 238, 121);
+  background-color: #fc9;
 }
 h1, h2{
   text-align: center;
+  margin: 0 4rem;
   background-color: rgb(208, 20, 255);
   border-radius: 1rem;
   padding: 1rem;
@@ -10,8 +11,7 @@ h1, h2{
 
 ul, li{
   background-color: rgb(255, 152, 152);
-  margin: 1rem;
-  padding: 1rem ;
+  padding: 1rem 1rem 1rem 2rem ;
   border-radius: 1rem;
   font-size: large;
 }
