@@ -1,0 +1,129 @@
+.border-solid {
+  border-style: solid;
+  padding: 3px;
+}
+
+.border-dashed {
+  border-style: dashed;
+  padding: 3px;
+}
+
+.border-dotted {
+  border-style: dotted;
+  padding: 3px;
+}
+
+.border-double {
+  border-style: double;
+  padding: 3px;
+}
+
+.border-groove {
+  border-style: groove;
+  padding: 3px;
+}
+
+.border-ridge {
+  border-style: ridge;
+  padding: 3px;
+}
+
+.border-inset {
+  border-style: inset;
+  padding: 3px;
+}
+
+.border-outset {
+  border-style: outset;
+  padding: 3px;
+}
+
+.border-thin {
+  border-style: solid;
+  border-width: thin;
+  padding: 2px;
+}
+
+.border-medium {
+  border-style: solid;
+  border-width: medium;
+  padding: 2px;
+}
+
+.border-thick {
+  border-style: solid;
+  border-width: thick;
+  padding: 2px;
+}
+
+.border-color-one {
+  /* Name */
+  border-style: solid;
+  border-color: Red;
+}
+
+.border-color-two {
+  /* HEX - Hexadecimal Colors */
+  border-style: solid;
+  border-color: #ff0000;
+}
+
+.border-color-three {
+  /* RGB - Red Green Blue */
+  border-style: solid;
+  border-color: rgb(204, 158, 103);
+}
+
+.border-color-four {
+  /* HSL - Hue Saturation Lightness */
+  border-style: solid;
+  border-color: hsl(0, 100%, 50%);
+}
+
+.border-color-fve {
+  /* Transparent */
+  border-style: solid;
+  border-color: transparent;
+}
+
+.secific-col {
+  border-style: solid;
+  border-color: red rgb(32, 222, 255) blue pink;
+  padding: 2px;
+}
+
+.indivisual {
+  border-style: dotted solid;
+  padding: 2px;
+}
+
+.shorthand-property {
+border: 2px dotted red;
+padding: 2px;
+}
+
+.shorthand-property-one{
+border-left: 2px dotted red;
+padding: 2px;
+}
+
+.normal-corner{
+  border: 2px solid blue;
+  padding: 3px;
+  border-radius: 0px;
+}
+.round-corner{
+  border: 2px solid blue;
+  padding: 3px;
+  border-radius: 5px;
+}
+.rounder-corner{
+  border: 2px solid blue;
+  padding: 3px;
+  border-radius: 10px;
+}
+.roundest-corner{
+  border: 2px solid blue;
+  padding: 4px;
+  border-radius: 15px;
+}
