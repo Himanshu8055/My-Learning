@@ -1,0 +1,38 @@
+.all-sides{
+  /* margin: 2rem; */
+  margin: auto;
+  padding: 5px;
+  width: 50%;
+  padding: 5px;
+  border: 2px dotted;
+}
+
+.indivisual-sides{
+  border: 2px dotted;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+  padding: 5px;
+}
+
+.shorthand-property{
+  border: 2px dashed;
+  padding: 5px;
+  margin: 3px 4px 6px 2px; /* clockwise- top right bottom left */
+}
+
+.auto-value{
+  border: 2px double;
+  padding: 5px;
+  margin: auto; /* Used to make element in center */
+  width: 70%;
+}
+
+section p{
+  color: aqua;
+}
+
+p.inherit-value{
+  color: inherit;
+}
