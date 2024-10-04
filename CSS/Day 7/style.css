@@ -1,0 +1,35 @@
+section {
+  margin: 1rem;
+}
+
+.indivisual-sides {
+  border: 3px ridge;
+  padding-top: .1rem;
+  padding-right: 1rem;
+  padding-bottom: .5rem;
+  padding-left: 1rem;
+}
+
+.shorthand {
+  border: 2px groove;
+  padding: 3px 3px 4px 11px;
+}
+
+.height-width{
+  padding: 1rem;
+  border: 2px solid red;
+  height: 100%;
+  width: 20%;
+}
+
+.max-width{ /* It is used to set maximum width of an element. */
+  border: 2px dashed;
+  min-height: 2rem;
+  max-height: 10rem;
+  overflow: scroll;
+  scrollbar-width: none;
+  padding: .5rem;
+  min-width: 50%;
+  max-width: 80%;
+
+}
