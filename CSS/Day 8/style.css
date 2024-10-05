@@ -1,0 +1,28 @@
+.outline{
+  outline-style: dotted;
+}
+
+.outline-width{
+  padding: .2rem;
+  outline-style: dotted;
+  outline-width: .5rem;
+}
+
+.outline-color{
+  padding: .2rem;
+  outline-style: dashed;
+  outline-width: .5rem;
+  outline-color: blueviolet; /* Can be given different values like HEX */
+}
+
+.sorthand-property{
+  padding: .5rem;
+  outline: solid red .21rem;
+}
+
+.outline-offset{
+  border: 2px solid black;
+  outline: 2px solid red;
+  outline-offset: 1rem;
+  padding: .5rem;
+}
