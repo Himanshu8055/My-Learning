@@ -1,0 +1,65 @@
+.textAndBackgroundColor{
+  color: #ff2424;
+}
+
+.textAlignment{ /* Used to set the horizontal alignment of a text. */
+  /* text-align: left; */
+  /* text-align: right; */
+  text-align: center;
+}
+
+.textAlignLast{ /* Used to change the last line of an element */
+  /* text-align-last: left; */
+  /* text-align-last: right; */
+  text-align-last: center;
+}
+
+.textDirection{ /* Used to change the direction of an element*/
+  direction: rtl;
+  direction: ltr;
+}
+
+/* .verticalAlignment{ /* Sets the vertical alignment of an element */
+ /* background-color: aqua;
+  height: 26rem;
+  width: 26rem;
+  padding: 1rem;
+  vertical-align: baseline;
+  vertical-align: text-top;
+  vertical-align: bottom;
+  vertical-align: sub;
+  vertical-align: super;
+} */
+
+.addDecoration{
+  /* text-decoration-line: line-through; */
+  /* text-decoration-line: overline; */
+  /* text-decoration-line: underline; */
+  text-decoration-line: overline underline line-through;
+}
+
+.specifyColor{
+  text-decoration-line: overline underline line-through;
+  text-decoration-color: red;
+}
+
+.specifyStyle{
+  text-decoration-line: underline;
+  /* text-decoration-style: solid; */
+  text-decoration-style: double;
+}
+
+.specifyThickness{
+  text-decoration-line: underline;
+  /* text-decoration-thickness: auto; */
+  /* text-decoration-thickness: 5px; */
+  text-decoration-thickness: 25%;
+}
+
+.shorthand{
+  text-decoration: dashed red underline 2px;
+}
+
+
+
+
