@@ -1,5 +1,14 @@
+body{
+  background-color: rgb(220, 218, 218);
+}
+h2{
+  text-align: center;
+  text-decoration: underline;
+}
+
+
 .textAndBackgroundColor{
-  color: #ff2424;
+  color: #d63ea6;
 }
 
 .textAlignment{ /* Used to set the horizontal alignment of a text. */
@@ -60,6 +69,30 @@
   text-decoration: dashed red underline 2px;
 }
 
+.textTransformation{
+  /* text-transform: capitalize; */
+  text-transform: uppercase;
+  /* text-transform: lowercase; */
+}
 
+.textIdentation{ /* It is used to give space of first ling like "tab". */
+  text-indent: 1rem;
+}
 
+.letterSpacing{ /* It is used to give spaces b/w letters/text. */
+  /* letter-spacing: normal; */
+  letter-spacing: 5px;
+}
+
+.lineHeight{ /* Used to give  */
+  line-height: 150%;
+}
+
+.wordSpacing{ /* Used to give space between words. */
+  word-spacing: 2rem;
+}
+
+.whiteSpace{ /* To handle white space */
+  white-space: nowrap; 
+}
 
