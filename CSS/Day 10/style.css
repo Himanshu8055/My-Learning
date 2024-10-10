@@ -7,8 +7,27 @@
   /* font-style: italic; */
 }
 
-.fontWeight{}
+.fontWeight{
+  font-weight: bold;
+}
 
-.fontVariant{}
+.fontVariant{
+  font-variant: small-caps;
+}
 
+.pixel{
+  font-size: 16px;
+}
+
+.fontEm{
+  font-size: 1em;
+}
+
+.fontVw{
+  font-size: 3vw;
+}
+
+.fontProperty{
+  font: italic small-caps bold 12px/30px Georgia, serif;
+}
 
