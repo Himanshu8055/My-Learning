@@ -7,7 +7,7 @@
     "editor.bracketPairColorization.independentColorPoolPerBracketType": false,
     "editor.codeLens": true,
     "scm.alwaysShowActions": false,
-    "scm.alwaysShowRepositories": true,
+    "scm.alwaysShowRepositories": false,
     "scm.compactFolders": true,
     "scm.providerCountBadge": "visible",
     "scm.showActionButton": true,
