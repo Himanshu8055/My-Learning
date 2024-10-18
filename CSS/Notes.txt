@@ -1,0 +1,2 @@
+To Understand:-
+1. Clear and Clearfix in CSS Layout

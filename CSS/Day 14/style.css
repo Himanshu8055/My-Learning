@@ -1,0 +1,10 @@
+.setFloat img{
+    /* float: inline-end; */
+    float: left;
+    padding: 4px;
+    clear: none;
+}
+
+/* .setFloat{
+    border: 2px solid green;
+} */
