@@ -5,6 +5,7 @@
     clear: none;
 }
 
-/* .setFloat{
+.setFloat{
     border: 2px solid green;
-} */
+    overflow: auto;
+}

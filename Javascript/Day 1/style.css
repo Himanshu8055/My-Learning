@@ -1,0 +1,15 @@
+.box{
+    height: 10rem;
+    width: 10rem;
+    background-color: aqua;
+    margin: 1rem;
+    display: inline-block;
+}
+
+.box1{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
