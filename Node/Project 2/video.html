@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Video.js Example</title>
+    <link href="https://vjs.zencdn.net/7.17.0/video-js.css" rel="stylesheet">
+</head>
+<body>
+
+  <video id="my-video" class="video-js" controls preload="auto" width="640" height="360" data-setup="{}">
+    <p class="vjs-no-js">
+      To view this video please enable JavaScript, and consider upgrading to a web browser that
+      <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+    </p>
+  </video>
+
+  <script src="https://vjs.zencdn.net/7.17.0/video.js"></script>
+
+  <script>
+  (async () => {
+    try {
+        const originalVideo = document.getElementById('videoplayer_html5_api'); //get the original video
+        const myVideo = document.getElementById('my-video'); //get videojs video
+
+        // Try setting the srcObject directly.
+        if (originalVideo.captureStream) {
+            console.log('Using captureStream.');
+            myVideo.srcObject = originalVideo.captureStream();
+            await myVideo.play().catch(error => {
+                console.error("Playback failed:", error);
+            });
+        } else if(originalVideo.src){ //If capture Stream not supported
+          console.log('captureStream not supported, trying to clone src.');
+          myVideo.src = originalVideo.src; // Clone the 'src' attribute
+          await myVideo.play().catch(error => {
+              console.error("Playback failed:", error);
+          });
+        } else {
+           console.log('captureStream and src not found.');
+        }
+
+        console.log('Video.js player is ready and attempting playback!');
+
+    } catch (error) {
+        console.error('Error setting up video:', error);
+    }
+  })();
+  </script>
+</body>
+</html>

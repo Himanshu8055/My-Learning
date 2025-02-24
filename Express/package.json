@@ -1,5 +1,16 @@
 {
+  "name": "day_1",
+  "version": "1.0.0",
+  "description": "first day of express",
+  "main": "index.js",
+  "type": "module",
   "dependencies": {
     "express": "^4.21.2"
-  }
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "node --watch index.js"
+  },
+  "author": "",
+  "license": "ISC"
 }

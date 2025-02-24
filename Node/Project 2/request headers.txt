@@ -1,0 +1,18 @@
+GET /api/filemetas?app_id=250528&web=1&channel=dubox&clienttype=0&jsToken=A60D6D9F5C5983FDD97EFB2D69D06B862C53F54C569058A48F72A2267C507FF98F4BAD35296AA22B3B299A91CD19BE2B56BE597F5F6307048AE08A31CB4A9CD5&dp-logid=28993000835493050012&dlink=1&target=%5B%22%2F%5BSearch-%20%40VQLSE_Bot%5D%20S01E13%20Dragon%20Ball%20Daima%20480p.mkv%22%5D HTTP/1.1
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Connection: keep-alive
+Content-Type: application/x-www-form-urlencoded
+Cookie: browserid=cri7NL7izhPAWpezVxjEjb2wNg509T4LYwSorf1v6Vf5pIwI9F3345p97yc=; lang=en; _ga=GA1.1.1053046141.1739841430; __bid_n=195169fe98a3e40d484207; shareRedirectDomain=terabox.app; _gcl_au=1.1.1859047903.1740012394; _ga_RSNVN63CM3=GS1.1.1740012434.1.0.1740012434.60.0.0; _ga_K6JMPYL99R=GS1.1.1740012394.1.1.1740013334.0.0.0; csrfToken=YnKP2P8DPkp_UIdtwCXKsjLr; ndus=Yf7eDeyteHuiCS_vPrZK1as2XqV3zi9-J-4DLnHN; ab_ymg_result={"data":"2744abdf3f2b2227b39b7676684274a02786912b4fd973d0e0aeb8acdb02ea75feaff324a824a462a3328c982ae8224ed217f88d4ad3d5c60018928bc518c2a1e9a856a813035aeb425f832a1296ab7b73f8871546a46737fa05b1bcf9b291462ec538c3c882e7c1fb1063142e5dbb335b80042ffaa8d520ebd46d3ac1a26164","key_id":"66","sign":"8dbf09f9"}; ab_sr=1.0.1_ZjA2OTc5NzI0ODJlNmY5MDIyMTI5OTg2MTM5ZDQ2ZjIxMzllM2ZhYTA3ZTAzMDRjZmRkNzFlODk3NjI0NGM5OTVlNGM4Y2Y3Y2IyY2NjY2MxZTNhNWZiZDdiNzNkZDExZDg4MmMyNmNkYmVkYzVhMmQ4MWMyNWI0NjAyMDc2YTYzMjdlMzYwZjgzNTc3N2RhMjAwMmYzMjkzNWRiY2Q5MA==; ndut_fmt=17CEE224F1BC145B00D50DDB42A4AC719D2CBF56B36A5FBF327C11777B5F5B7F; _ga_06ZNKL8C2E=GS1.1.1740323515.6.1.1740325134.52.0.0
+DNT: 1
+Host: www.1024terabox.com
+Referer: https://www.1024terabox.com/play/video?path=%2F%5BSearch-%20%40VQLSE_Bot%5D%20S01E13%20Dragon%20Ball%20Daima%20480p.mkv&t=-1
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+X-Requested-With: XMLHttpRequest
+sec-ch-ua: "Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
