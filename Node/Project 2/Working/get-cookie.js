@@ -14,7 +14,7 @@ async function getCookie() {
         // Extract only the cookie values
         const extractedTokens = cookiesArray.map(cookie => {
             // const match = cookie.match(/ndus=([^;]+)/); // Extracts value after 'ndus='
-            const match = cookie.match(/ndus([^;]+)/); // Extracts value after 'ndus='
+            const match = cookie.match(/ndus=([^;]+)/); // Extracts value after 'ndus='
             // const cookieValue =  match ? match[1] : null;
            const cookieObj = match ? { name: "ndus", value: match[1] } : null;
             return cookieObj
@@ -28,6 +28,6 @@ async function getCookie() {
 
 
 
-app();
+getCookie();
 
 
